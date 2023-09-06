@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .flex{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+        .container{
+            width: 300px;
+            height:700px  ;
+            /* background-color: gainsboro; */
+            margin: 100px;
+        }
+
+        .box{
+            width: 100px;
+            height:100px  ;
+            /* background-color: gainsboro; */
+        }
+
+        .red{
+            position: relative;
+            background-color: #69f472;
+            bottom: 100px;
+            right: 120px;
+            border-radius: 10px;
+            /* top: 20px; */
+            
+           
+        }
+        .green{
+            background-color: rgb(33, 194, 247);
+            position: relative;
+            bottom: 100px;
+            right: 120px;
+            border-radius: 10px;
+            /* top: 2px; */
+            
+
+            
+    
+        }
+        .blue{
+            background-color: red;
+            position: relative;
+            bottom: 100px;
+            right: 120px;
+            border-radius: 10px;
+            /* top: 20px; */
+            
+
+        }
+
+        .purple{
+            background-color: grey;
+            position: relative;
+            bottom: 100px;
+            right: 120px;
+            border-radius: 10px;
+            /* top: 20px; */
+
+        }
+
+        .spacer{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover Sidenav Button</h1>
+    <h3>Hover over the buttons in the left side navigation to open them.</h3>
+    <div class="container flex">
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <div class="box purple"></div>
+
+        <div class="spacer"></div>
+    </div>
+
+    
+</body>
+</html>

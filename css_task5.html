@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS task 5</title>
+    <style>
+
+        *{
+            padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+
+        }
+
+        .container{
+            min-height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+            background-color: rgb(245, 245, 37);
+            /* margin: 50px; */
+            /* background: linear-gradient(to right, #041308,#0b3317); */
+        }
+        .box{
+            background-color: white;
+        }     
+        
+        .text{
+            color: rgb(169, 8, 8);
+        }
+
+       .li-item{
+        /* border: 1px solid black; */
+        margin: 5px 5px;
+        padding: 5px 5px;
+        width: 100px;
+        background-color: white;
+       }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <ul style="text-decoration: none;" class="flex items" type="none">
+                <li class="li-item"><a href="#">Home page</a></li>
+                <li class="li-item"><a href="#">Musing</a></li>
+                <li class="li-item"><a href="#">My town</a></li>
+                <li class="li-item"><a href="#">Links</a></li>
+            </ul>
+            
+        </div>
+
+        <div class="gallery text flex" >
+           <h1>My first Styled page</h1>
+
+           <p>Welcome to my styled page!</p>
+           <p>It lacks images, but at least it has style. And it
+            has links, even if they don't go anywhere...
+            </p>
+            <p>There should be more here, but I don't know
+                what yet.</p>
+            
+            <p>Made 5th april 2004</p>
+            <p>by myselff</p>
+        </div>
+    </div>
+</body>
+</html>
