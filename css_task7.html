@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS task 7</title>
+    <style>
+        .container{
+            width: 800px;
+            height: 500px;
+            background-color: rgb(162, 43, 85);
+            box-sizing: border-box;
+            position: absolute;
+            top: 30px;
+            left:250px;
+
+
+        }
+        .box{
+            width:700px ;
+            height: 400px;
+            background-color:rgb(123, 47, 75);
+            display: flex;
+            position: absolute;
+            top:50px;
+            left: 50px;
+            bottom: 10px;
+
+        }
+
+        .form{
+            margin-top: 30px;
+        }
+        .item{
+            /* margin: 10px 40px; */
+            display: flex;
+            gap: 10px;
+            margin-left: 200px;
+            margin-top: 10px;
+            justify-content: start;
+            justify-items: stretch;
+            
+
+        }
+
+        .item input{
+            justify-items:end;
+        }
+
+        .submit-btn{
+            margin-left: 280px;
+            padding:20px 20px;
+            width: 300px
+
+        }
+
+        .item input{
+            position: relative;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box">
+                <div class="form">
+                    <form action="">
+                    <div class="name item">
+                        <label for="Name">Name:</label>
+                        <input class="flex" type="text" placeholder="Your name">
+                    </div>
+                    <div class="Email item">
+                        <label for="Email">Email:</label>
+                        <input type="email">
+                    </div>
+                    <div class="password item">
+                        <label for="password">Password:</label>
+                        <input type="password" name="" id="">
+                    </div>
+                    <div class="Phone item">
+                        <label for="phone">Phone Number:</label>
+                        <input type="number">
+                    </div>
+                    <div class="gender item">
+                        <label for="gender">Gender</label>
+                        <input class type="radio"><label for="">Male</label>
+                        <input class type="radio" name="" id=""><label for="">Female</label>   
+                        <input class type="radio" name="" id=""><label for="">others</label>
+                    </div>
+
+                    <div class="language item">
+                        <label for="language">Language:</label>
+
+                        <select name="language" id="select labguage" >
+                        <option value="">Enter language</option>
+                        <option value="">Hindi</option>
+                        <option value="">Kannda</option>
+                        <option value="">English</option>
+                    </select>
+                    </div>
+
+                    <div class="zip-code item">
+                        <label for="zip">Zip-Code:</label>
+                        <input type="number">
+                    </div>
+
+                    <div class="about item">
+                        <label for="">About:</label>
+                    <textarea name="" id="" cols="30" rows="0"></textarea>
+                    </div>
+
+                    <div class="submit-btn">
+                        <button><b>Submit</b></button>
+                    </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
